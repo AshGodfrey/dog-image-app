@@ -29,16 +29,7 @@ function displayResults(responseJson) {
 	for (var i=0; i < arrayLength; i++){
 		$('#images').append(`<img src="${responseJson.message[i]}" class="results-img">`)
 	}
-	//$('#images').html(
-	   // `<img src="${responseJson.message[0]}" class="results-img">
-	    //<img src="${responseJson.message[1]}" class="results-img">
-	    //<img src="${responseJson.message[2]}" class="results-img">
-	   // <img src="${responseJson.message[3]}" class="results-img">`
-	   // )
-	//for (var i=0; i < arrayLength; i++){
-		//$('.results-img').replaceWith(
-	    //`<img src="${responseJson.message[i]}" class="results-img">`
-  //)
+	
 	//}
   //display the results section
   $('.results').removeClass('hidden');
