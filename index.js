@@ -20,6 +20,7 @@ function submitForm() {
 	$('form').submit(event => {
     event.preventDefault();
     getDogImages();
+    $('#images').empty();
   });
 }
 
